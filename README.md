@@ -2,7 +2,7 @@ Frequent-Itemset-Mining-Using-MapReduce
 =======================================
 
 The original data would be a text ﬁle, each line is a transaction containing multiple items
-separated by commas (item1, item2, item3,¢¢¢, itemn). Let’s use the following dummy data as
+separated by commas (item1, item2, item3,..., itemn). Let’s use the following dummy data as
 an example. Each line is a basket or a transaction. Each number is an item id.
 1,2,5
 2,3
