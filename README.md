@@ -17,9 +17,13 @@ value would be Text: the content of each line. The output key would be Text: the
 The output value is IntWritable: 1. In the example case, it will generate the following outputs
 
 1,2,5--> (1,1), (2,1), (5,1), ((1,2),1), ((1,5),1), ((2,5),1), ((1,2,5),1)
+
 2,3 --> (2,1), (3,1), ((2,3),1)
+
 2,4,5 --> (2,1), (4,1), (5,1), ((2,4),1), ((2,5),1), ((4,5),1), ((2,4,5),1)
+
 1,2 --> (1,1), (2,1), ((1,2),1)
+
 1,5 --> (1,1), (5,1), ((1,5),1)
 
 The reduce function:
